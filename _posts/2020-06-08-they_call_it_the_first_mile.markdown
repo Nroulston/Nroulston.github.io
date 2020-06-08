@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "They call it the first mile."
-date:       2020-06-08 16:39:47 +0000
+date:       2020-06-08 12:39:48 -0400
 permalink:  they_call_it_the_first_mile
 ---
 
