@@ -23,7 +23,7 @@ Today I completed the, what seemed like an infinite, loop:
 			might cast the seeds of doom and gloom back into my life.
 			end
 			
-Today I passed the condition being evaluated in my ***"until"*** loop. I finished a project of my own design. Infinite loop now complete! For the past 13 hours I have coded a CLI(Command Line Interface) gem that runs in your terminal, and it works! Check it out if you dare![](https://github.com/Nroulston/meal-planner). The requirements were: 
+Today I passed the condition being evaluated in my ***"until"*** loop. I finished a project of my own design. Infinite loop now complete! For the past 13 hours I have coded a CLI(Command Line Interface) gem that runs in your terminal, and it works! [Check it out if you dare!](https://github.com/Nroulston/meal-planner). The requirements were: 
 
 1.  Get data from a website by either scraping it, or accessing an API(Application Programming Interface). 
 2.  Create objects from the data - OOP design here we come!
