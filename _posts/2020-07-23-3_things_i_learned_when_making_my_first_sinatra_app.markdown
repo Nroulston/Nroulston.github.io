@@ -70,7 +70,7 @@ DB[:conn].execute_batch(sql)
 Take a closer look at the above again. In the Sinatra application we have been using our database connection that was set up in our environment/yaml file, and low and behold execute_batch isn't recognized by the ActiveRecord.base connection. Round 2 learning the power of raw SQL. If you want to use ActiveRecord you would need to iterate over each SQL statement individually. Well that seemed like a chore so I did it my way. On line one I established the connection to my development database with SQLite and gained access to the execute_batch method which is an SQLite3 method.
 
 
-## 2. Using a CSS frameworks like Materialize makes life better.
+## 2. Using a CSS framework like Materialize makes life better.
 
 If you are focusing on writing excellent code and trying to put out a MVP(minimal viable product) CSS frameworks will speed up making your app presentable for the masses. 
 
@@ -78,7 +78,7 @@ You can go from something with no custom styling to a pleasant to the eye websit
 
 ![](https://materializecss.com/images/starter-template.gif)
 
-The peace of mind of using Materialize allowed me to push the boundaries of what I knew and create a user friendly front end with, what is to me, a complex back-end. 
+The peace of mind of using Materialize allowed me to push the boundaries of what I knew, and to create a user friendly front end with, what is to me, a complex back-end. 
 
 ## 3. Using a database correctly takes work, and a lot of doc reading.
 
@@ -97,7 +97,7 @@ When iterating over the database with vanilla Ruby you will go through each reco
 	   end
 ```
 
-So instead of doing the above use the methods that ActiveRecord provides. 
+So instead of doing the above, use the methods that ActiveRecord provides. 
 ```
 unless current_user.brew_logs.empty?
   current_user.brew_logs.select(:recipe_id).distinct.each do |log|
