@@ -67,7 +67,7 @@ SQL
 DB[:conn].execute_batch(sql)
 ```
 
-Take a closer look at the above again. In the Sinatra application we have been using our database connection that was set up in our environment/yaml file, and low and behold execute_batch isn't recognized by the ActiveRecord.base connection. Round 2 learning the power of raw SQL. If you wanted to use ActiveRecord you would need to iterate over each SQL statement individually. Well that seemed like a chore so I did in my way. On line one I established the connection to my development with SQLite and gained access to the execute_batch method which is an SQLite3 method.
+Take a closer look at the above again. In the Sinatra application we have been using our database connection that was set up in our environment/yaml file, and low and behold execute_batch isn't recognized by the ActiveRecord.base connection. Round 2 learning the power of raw SQL. If you want to use ActiveRecord you would need to iterate over each SQL statement individually. Well that seemed like a chore so I did it my way. On line one I established the connection to my development database with SQLite and gained access to the execute_batch method which is an SQLite3 method.
 
 
 ## 2. Using a CSS frameworks like Materialize makes life better.
