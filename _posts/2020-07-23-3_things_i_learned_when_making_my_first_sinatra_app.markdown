@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "3 things I learned when making my first Sinatra app"
-date:       2020-07-24 01:59:58 +0000
+date:       2020-07-23 21:59:59 -0400
 permalink:  3_things_i_learned_when_making_my_first_sinatra_app
 ---
 
@@ -67,24 +67,24 @@ SQL
 DB[:conn].execute_batch(sql)
 ```
 
-Take a closer look at the above again. In the Sinatra application we have been using our database connection that was set up in our environment/yaml file, and low and behold execute_batch isn't recognized by the ActiveRecord.base connection. Round 2 learning the power of raw SQL. If you wanted to use ActiveRecord you would need to iterate over each SQL statement individually. On line one I established the connection to my development with SQLite and gained access to the execute_batch method. 
+Take a closer look at the above again. In the Sinatra application we have been using our database connection that was set up in our environment/yaml file, and low and behold execute_batch isn't recognized by the ActiveRecord.base connection. Round 2 learning the power of raw SQL. If you wanted to use ActiveRecord you would need to iterate over each SQL statement individually. Well that seemed like a chore so I did in my way. On line one I established the connection to my development with SQLite and gained access to the execute_batch method which is an SQLite3 method.
 
 
-## 2. Use a CSS frameworks like Materialize make life better.
+## 2. Using a CSS frameworks like Materialize makes life better.
 
-If you are focusing on writing excellent code and trying to put out an MVP(minimal viable product) CSS frameworks will speed up making your app presentable for the masses. 
+If you are focusing on writing excellent code and trying to put out a MVP(minimal viable product) CSS frameworks will speed up making your app presentable for the masses. 
 
 You can go from something with no custom styling to a pleasant to the eye website in a matter of moments. 
 
 ![](https://materializecss.com/images/starter-template.gif)
 
-The peace of mind of using a Materialize allowed me to push the boundaries of what I knew and create user friendly front end with what is to me a complex back-end. 
+The peace of mind of using Materialize allowed me to push the boundaries of what I knew and create a user friendly front end with, what is to me, a complex back-end. 
 
 ## 3. Using a database correctly takes work, and a lot of doc reading.
 
-When working with your database you should always be making decision based on performance. I discovered that iterating over records with ruby was already accounted for with active record, and in fact using ActiveRecord methods was reccommended over ruby iterations due to future performance issues with large databases. 
+When working with your database you should always be making decision based on performance. I discovered that iterating over records with Ruby was already accounted for with ActiveRecord, and in fact using ActiveRecord methods was reccommended over Ruby iterations due to future performance issues with large databases. 
 
-When iterating over the database with vanilla ruby you will go through each record and create an Object that can be iterated over. A huge database would start to have memory nightmares! 
+When iterating over the database with vanilla Ruby you will go through each record and create an Object that can be iterated over. A huge database would start to have memory nightmares! 
 
 ```
  current_user.recipes.each do |recipe|%>
