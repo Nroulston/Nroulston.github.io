@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Let's talk - the tips I wish I had before starting my rails app"
-date:       2020-08-22 00:12:29 +0000
+date:       2020-08-21 20:12:30 -0400
 permalink:  lets_talk_-_the_tips_i_wish_i_had_before_starting_my_rails_app
 ---
 
