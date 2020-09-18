@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Want your rails API to be multiplayer? Let's talk ActionCable."
-date:       2020-09-18 18:59:09 +0000
+date:       2020-09-18 14:59:10 -0400
 permalink:  want_your_rails_api_to_be_multiplayer_lets_talk_actioncable
 ---
 
@@ -264,9 +264,9 @@ There is so much more that you can do with ActionCable. I highly recommend readi
 
 Keep an eye out for a multi channel version, and deeper dive into how to work with ActionCable.
 
-You can check out the current project [repo here](https://github.com/Nroulston/ActionCableCohortGame/commit/a83ad3c9d770fdbd817f21125567aac4cbc42272)
+You can check out the current project [repo here](https://github.com/Nroulston/ActionCableCohortGame)
 
-You can also see a video demonstration here <- *coming soon*
+You can also see a [video demonstration here ](https://youtu.be/EYSuR9ryIc8)
 
 
 
