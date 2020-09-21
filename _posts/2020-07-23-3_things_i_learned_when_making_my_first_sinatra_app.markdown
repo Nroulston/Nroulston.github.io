@@ -111,6 +111,10 @@ unless current_user.brew_logs.empty?
 
 ### read the docs of the tools you are using!
 
+Checkout a Youtube demo [here](https://www.youtube.com/watch?v=eZWtl-W3DZU&list=PLELHuMLUwT4g6BprJ4i979IIoQtchnfWI&index=2)
+
+Check out the repository [here](https://github.com/Nroulston/brew_tracker)
+
 
 
 
