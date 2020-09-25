@@ -58,6 +58,6 @@ In my Spaced Repetition note card app that I was building I realized I would nee
 
 As always you can check out how it all works at my [Github repository](https://github.com/Nroulston/level_up_learning).
 
-Check out the youtube [demo]https://www.youtube.com/watch?v=Rxlac4YW-eQ&list=PLELHuMLUwT4g6BprJ4i979IIoQtchnfWI&index=4&t=30s) to see how the product flows
+Check out the youtube [demo](https://www.youtube.com/watch?v=Rxlac4YW-eQ&list=PLELHuMLUwT4g6BprJ4i979IIoQtchnfWI&index=4&t=30s) to see how the product flows
 
 
