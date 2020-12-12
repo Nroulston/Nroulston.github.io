@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Get StimulusReflex working on Heroku"
-date:       2020-12-12 19:30:18 +0000
+date:       2020-12-12 14:30:19 -0500
 permalink:  get_stimulusreflex_working_on_heroku
 ---
 
@@ -25,18 +25,18 @@ tar xvzf redis-stable.tar.gz
 cd redis-stable
 make
 ```
+2. Test if redis installed correctly 
+    ```
+   //start the server in on console
+	$ redis-server
 
-2. Test if redis installed correctly
-```
-//start the server in on console
-$ redis-server
+	//test the server in a separate console
 
-//test the server in a separate console
+	$ redis-cli ping
 
-$ redis-cli ping
-
-// Terminal output should be Pong
-```
+	// Terminal output should be Pong
+  ```
+		
 
 ###### You want to secure Redis
 
