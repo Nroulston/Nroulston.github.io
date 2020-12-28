@@ -26,7 +26,7 @@ Scope your mission down, and iterate on the feedback you are getting. I had a vi
 
 We needed small projects that were relatively simple in nature that could be completed in a relatively short amount of time; 1 to 2 months. So large scale projects were out. This left us with the choice of working on friends web pages, and nonprofit web pages. As an organization that is asking people to do work for free, having some members potentially get paid just didn’t sit right. We also have the opportunity to help make the world a better place. Ultimately if I was going to spend my time trying to build an organization to help people it should do two things. 1. Help people around the world. 2. Help a single person get experience while helping people around the world. Cue inception music here. Helping people to help people help people. 
 
-#### BitSized Good is created and can get work, or can it?
+#### BitSized Good is created and can get to work, or can it?
 
 Great! Now we have scoped down our mission and what we are going to do. We are going to work with nonprofits and provide a website redesign that will have a direct impact on the nonprofits goals. We will start with UX discovery and end the project when the developers hand it off to the nonprofit. 
 
