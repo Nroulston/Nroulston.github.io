@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Get your own experience, this is mine."
-date:       2020-12-26 18:20:45 +0000
+date:       2020-12-26 13:20:46 -0500
 permalink:  get_your_own_experience_this_is_mine
 ---
 
@@ -22,7 +22,7 @@ Scope your mission down, and iterate on the feedback you are getting. I had a vi
 
  I had identified three areas that I could potentially find project work for myself and others. There were open source projects for XR with React, InterPlanetary File System gems for easy local hosting, and building out virtual training for Boston Dynamics robot dogs. Friends and colleagues had websites that we could improve, and by doing so gain a recurring revenue stream from their new sales. Our first nonprofit project went from a basic redesign to a custom learning management system(LMS) in our first meeting. While all of these are extremely exciting projects to work on, most of the projects were too large for groups of people learning to work together without a framework as to how to work efficiently. 
 
-#### This is when it struck me
+### This is when it struck me
 
 We needed small projects that were relatively simple in nature that could be completed in a relatively short amount of time; 1 to 2 months. So large scale projects were out. This left us with the choice of working on friends web pages, and nonprofit web pages. As an organization that is asking people to do work for free, having some members potentially get paid just didn’t sit right. We also have the opportunity to help make the world a better place. Ultimately if I was going to spend my time trying to build an organization to help people it should do two things. 1. Help people around the world. 2. Help a single person get experience while helping people around the world. Cue inception music here. Helping people to help people help people. 
 
@@ -42,14 +42,14 @@ While we have found a solution that most nonprofits are comfortable with due to 
 
 Once again we have to iterate on our solutions model keeping in mind our original vision of helping both parties involved. What we know is that we need to have an easily maintainable cms and ecommerce website which has the ability to be visually edited by the client, and can have plugin-like features developed in Javascript and React. Once the website is handed off there should not be any need for the client to worry about their webpage breaking due to incompatibility, and they can update the content and/or the design without the help of a developer.
 
-#### We have arrived at Webflow
+### We have arrived at Webflow
 
 Webflow addresses each of the problems we defined above. 
 UX/UI is able to design inside of Figma and pass off those designs to a developer who is able to use a drag and drop interface/ custom CSS to build out the visual nature of the page. 
 Developers can build out solutions, using Javascript and React, not already provided by Webflow, and deploy to AWS S3 and then import via scripts into Webflow. 
 Nonprofits have the ability to edit the webpage two ways. They can use the editor to update copy, images, and general aesthetics, or they can use the designer to go in and use the same interface the developer used to build the webpage. 
 
-#### It isn’t perfect - What now?
+### It isn’t perfect - What now?
 
 Ultimately this isn’t a perfect solution. We can still improve on the process by building out our own website builder using open source tools like GrapeJS. We also need to figure out a sustainable solution to scale nonprofits web presence without involving huge costs. How do we get a custom dynamic page hosted with only the cost of the domain? Some solutions may be a mix of Netlify and Firebase. How do we bring the cost of accepting donations down? Ultimately in my mind this could be a lifelong pursuit of building out a framework like Spree or Solideous that allow the speed of making these decisions a lot faster. 
 
@@ -57,7 +57,7 @@ We also haven’t addressed the ideas of making it easier for developers to lear
 
 There are so many questions, but what is great about trying to be agile is that we can move forward with our current solution since it is the best one we have, and at the same time we can continue to research if this is actually the best solution. 
 
-#### Hopefully this gave you value
+### Hopefully this gave you value
 
 As a new developer we have the ability to change the world. Remember you can scope down that idealistic goal and make bitsized changes to how things are done. Come join us at BitSized Good to take advantage of the research we have already done, or go your own way and help a local nonprofit. I highly recommend that you start with a small goal and learn from your experience. 
 
