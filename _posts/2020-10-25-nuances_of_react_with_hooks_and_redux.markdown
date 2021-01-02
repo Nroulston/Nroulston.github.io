@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Nuances of React with hooks and Redux"
-date:       2020-10-25 22:40:52 +0000
+date:       2020-10-25 18:40:53 -0400
 permalink:  nuances_of_react_with_hooks_and_redux
 ---
 
@@ -52,9 +52,10 @@ By nesting the App component inside of the provider with a props of store the re
 
 ### The slice file becomes your best friend
 
-Actions, reducers, thunk calls, global state, global state defaults, complex selectors for specific global state you need are now all written inside one file. To quickly set up your structure follow the following. :)
+Actions, reducers, thunk calls, global state, global state defaults, complex selectors for specific global state you need are now all written inside one file. To quickly set up your structure follow the following. 
 
 ```
+
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 
 
@@ -87,18 +88,18 @@ export default brewlogsSlice.reducer
 
 export const selectBrewlogById = (state, brewlogId) => 
   state.brewlogs.brewlogs.find(brewlog => brewlog.id == brewlogId)
-	```
+```
 	
-	The above is the powerhouse of Redux interaction. You start with importing the tools you need from the redux toolkit. Create Slice allows you tell the redux store what global state it has for this slice name:brewlogs, what actions it will be listening for, and at the same time how it treat the action that is dispatched(reducer). The extra reducers inside of the slice deal with async Thunk calls. At the bottom of the file you export your actions, the reducer to include in your store.js file, and lastly any complex calls for state that you want to use in your components. 
+The above is the powerhouse of Redux interaction. You start with importing the tools you need from the redux toolkit. Create Slice allows you tell the redux store what global state it has for this slice name:brewlogs, what actions it will be listening for, and at the same time how it treat the action that is dispatched(reducer). The extra reducers inside of the slice deal with async Thunk calls. At the bottom of the file you export your actions, the reducer to include in your store.js file, and lastly any complex calls for state that you want to use in your components. 
 	
-	### useState(), and dispatch() hooks
+### useState(), and dispatch() hooks
 	
-	These two hooks allow you to work with Redux outside of your slice files.
+These two hooks allow you to work with Redux outside of your slice files.
 	
-	useState is simply put a getter that retrieves information from the global state using a callback function. You can write this inline, or you can write it in your slice and export it.
+useState is, simply put, a getter that retrieves information from the global state using a callback function. You can write this inline, or you can write it in your slice and export it.
 	
-	dispatch is used to send out your actions which then get handled in your slice file.
+dispatch is used to send out your actions which then get handled in your slice file.
 	
-	As crazy as it sounds that is the basics of working with Redux using hooks. There is a bit more complexity to hooks in general when working with the entire React app, but that is saved for another blog. 
+As crazy as it sounds that is the basics of working with Redux using hooks. There is a bit more complexity to hooks in general when working with the entire React app, but that is saved for another blog. 
 	
 	
